@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue: #00AAEE;
+  --color-red: #FF595E;
+  --color-yellow: #FFCA3A;
+  --color-green: #8AC926;
+  --color-purple: #6A4C93;
+	--font-title: "Gloria Hallelujah", sans-serif;
+	--font-base: "Source Sans 3", sans-serif;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		scroll-padding: 0;
+	}
+
+	@media screen and (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+	}
+
+	body, main {
+		@apply bg-gray-50 dark:bg-gray-900 font-base text-slate-800 dark:text-slate-200;
+	}
+
+	header, main {
+		scroll-snap-align: start;
+	}
+
+	footer {
+		scroll-snap-align: end;
+	}
+
+	img, picture {
+		@apply dark:brightness-75
+	}
+
+	nav ul {
+		@apply flex flex-wrap justify-center-safe items-center gap-4 my-6 font-title text-xl 
+	}
+
+	nav a {
+		@apply block text-white px-3 py-2 rounded-xl shadow-md hover:shadow-none hover:scale-95;
+		--spacing: .25em;
+		text-decoration: none !important;
+	}
+
+	a {
+		@apply text-sky-900 dark:text-sky-200 underline
+	}
+
+	h1 {
+		@apply font-title text-3xl font-bold my-3
+	}
+
+	p {
+		@apply text-lg mb-2
+	}
+
+}
+
+@layer components {
+	#color-bar {
+		@apply flex sticky mx-auto bottom-0 z-50 h-1 w-75 md:w-100 my-9 overflow-hidden;
+		z-index: 999;
+	}
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+	max-width: 75rem;
+}

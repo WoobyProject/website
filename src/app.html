@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<title>Wooby - Tons of Smiles</title>
+		<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		%sveltekit.head%
+		<meta name="theme-color" content="#E2E8F0" media="(prefers-color-scheme: light)"> <!--TODO-->
+		<meta name="theme-color" content="#1F2937" media="(prefers-color-scheme: dark)"> <!--TODO-->
+		<meta property="og:title" content="Wooby">
+		<meta property="og:description" content=""><!--TODO-->
+		<meta property="og:url" content="https://wooby.org/">
+		<meta property="og:locale" content="en_GB">
+		<meta property="og:image" content="/open-graph-logo.png"> <!--TODO-->
+		<meta property="og:type" content="website">
+		<!-- Rybbit Tracking Snippet -->
+		<script src="https://app.rybbit.io/api/script.js" data-site-id="2219" defer></script>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<nav>
+			<ul>
+				<li><a href="/" class="bg-blue">Project</a></li>
+				<li><a href="#" class="bg-red">Product</a></li>
+				<!--<li class="inline-block w-[7em]"><img src="logo-simple.svg" alt="Wooby Logo" class="w-full h-full"></li> -->
+				<li><a href="/malnutrition" class="bg-yellow">Malnutrion</a></li>
+				<li><a href="#" class="bg-purple">Humanitarian aid</a></li>
+				<li><a href="/who-we-are" class="bg-green">Who we are</a></li>
+			</ul>
+		</nav>
+		<main class="container">
+			<div style="display: contents">%sveltekit.body%</div>
+		</main>
+		<div id="color-bar">
+			<div class="w-1/5 bg-blue"></div>
+			<div class="w-1/5 bg-red"></div>
+			<div class="w-1/5 bg-yellow"></div>
+			<div class="w-1/5 bg-purple"></div>
+			<div class="w-1/5 bg-green"></div>
+		</div>
+		<footer class="container mt-6">
+
+			Footer todo
+			<!--<p>Il faudra un truc ici.</p>
+				
+			Merci Google fonts, tailwind, Font Awesome-->
+		</footer>
+	</body>
+</html>
