@@ -1,5 +1,5 @@
 <header class="w-full">
-	<enhanced:img src="$lib/assets/main-thumbnail.svg" alt="Wooby Logo with decorations" class="block mx-auto w-[90%] max-w-5xl">
+	<enhanced:img src="$lib/assets/main-thumbnail.svg" alt="Wooby Logo with decorations" class="block mx-auto w-[90%] max-w-5xl"/>
 </header>
 <h1>All you need to know about Wooby!</h1>
 <p>Wooby was born at the Airbus Humanity Lab as one of its first initiatives. The project emerged from a call for proposals by the Airbus Foundation, inviting NGOs working with them to present challenges where technology innovation could make a meaningful difference.</p>

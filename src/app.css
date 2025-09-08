@@ -23,7 +23,7 @@
 	}
 
 	body, main {
-		@apply bg-gray-50 dark:bg-gray-900 font-base text-slate-800 dark:text-slate-200;
+		@apply bg-gray-50 dark:bg-neutral-950 font-base text-slate-800 dark:text-slate-200;
 	}
 
 	header, main {
