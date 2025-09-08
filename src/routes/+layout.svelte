@@ -12,7 +12,7 @@
 
 <Nav />
 
-<main class="container" style="display: contents">
+<main class="container" style="grid-area: content;">
 	<slot />
 </main>
 

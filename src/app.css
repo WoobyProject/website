@@ -26,6 +26,16 @@
 		@apply bg-gray-50 dark:bg-neutral-950 font-base text-slate-800 dark:text-slate-200;
 	}
 
+	body {
+		@apply grid min-h-[100vh] min-h-[100dvh] max-w-[60rem] mx-auto;
+		
+		grid-template:
+			"nav" auto
+			"content" 1fr
+			"pre-footer" auto
+			"footer" auto / 1fr;
+	}
+
 	header, main {
 		scroll-snap-align: start;
 	}
@@ -53,7 +63,11 @@
 	}
 
 	h1 {
-		@apply font-title text-3xl font-bold my-3
+		@apply font-title text-4xl font-bold my-4
+	}
+
+	h3 {
+		@apply font-title text-xl font-bold my-2
 	}
 
 	p {
