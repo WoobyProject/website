@@ -1,12 +1,19 @@
 <script lang="ts">
 	import '../app.css';
-	//import favicon from '$lib/assets/favicon.svg';
+	import Nav from '../components/nav.svelte';
+	import Footer from '../components/footer.svelte';
 
-	let { children } = $props();
+	//import favicon from '$lib/assets/favicon.svg';
 </script>
 
 <svelte:head>
 	<!--<link rel="icon" href={favicon} />-->
 </svelte:head>
 
-{@render children?.()}
+<Nav />
+
+<main class="container" style="display: contents">
+	<slot />
+</main>
+
+<Footer />
