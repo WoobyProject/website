@@ -6,12 +6,16 @@
   --color-yellow: #FFCA3A;
   --color-green: #8AC926;
   --color-purple: #6A4C93;
+	--bg-default: rgb(255, 251, 244);
+	--bg-yellow: rgb(253, 243, 174);
+	--bg-blue: rgb(200, 240, 237);
 	--font-title: "Gloria Hallelujah", sans-serif;
 	--font-base: "Source Sans 3", sans-serif;
 }
 
 @layer base {
 	html {
+		@apply relative;
 		scroll-behavior: smooth;
 		scroll-padding: 0;
 	}
@@ -22,12 +26,34 @@
 		}
 	}
 
-	body, main {
-		@apply bg-gray-50 dark:bg-neutral-950 font-base text-slate-800 dark:text-slate-200;
+	html:after {
+		@apply absolute inset-0;
+
+		content:"";
+		background-image: url("$lib/assets/light-background.svg");
+		background-repeat: repeat;
+		opacity: 0.25;
+		z-index: -1;
+	}
+
+	.stripe {
+	  --bg-color: var(--bg-blue);
+    height: fit-content;
+    position: relative;
+	}
+
+	.stripe:before {
+			content:"";
+			background-color: var(--bg-color);
+			position: absolute;
+			height: 100%;
+			width: 200vw;
+			left: -100vw;
+			z-index: -2;
 	}
 
 	body {
-		@apply grid min-h-[100vh] min-h-[100dvh] max-w-[60rem] mx-auto;
+		@apply grid min-h-[100vh] min-h-[100dvh] max-w-[60rem] mx-auto bg-[var(--bg-default)] dark:bg-neutral-950 font-base text-slate-800 dark:text-slate-200;
 		
 		grid-template:
 			"nav" auto
@@ -74,6 +100,9 @@
 		@apply text-lg mb-2
 	}
 
+	button {
+		@apply block text-white px-3 py-2 rounded-xl bg-red shadow-md hover:shadow-none hover:scale-95;
+	}
 }
 
 @layer components {
