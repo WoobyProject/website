@@ -15,19 +15,19 @@
 		<div class="block mx-auto">
 			<h3>Educational Play</h3>
 			<span>
-				Learn more and more !
+				Learn more and more!
 			</span>
 		</div>
 		<div class="block mx-auto">
 			<h3>Educational Play</h3>
 			<span>
-				Learn more and more !
+				Learn more and more!
 			</span>
 		</div>
 		<div class="block mx-auto">
 			<h3>Educational Play</h3>
 			<span>
-				Learn more and more !
+				Learn more and more!
 			</span>
 		</div>
 	</div>
