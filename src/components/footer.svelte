@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 		<div class="basis-full">
-			<h3>Contact us</h3>
+			<h3>Contact us!</h3>
 			<p>
 				<a href="mailto:hello@wooby.org">hello@wooby.org</a>
 			</p>
