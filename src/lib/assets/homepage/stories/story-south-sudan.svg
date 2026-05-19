@@ -1,0 +1,20 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="720" height="460" rx="28" fill="#FFF7EA" />
+	<rect x="44" y="44" width="632" height="372" rx="24" fill="#FFE1E2" />
+	<circle cx="218" cy="194" r="74" fill="#FF595E" opacity=".9" />
+	<circle cx="338" cy="174" r="56" fill="#FFCA3A" opacity=".9" />
+	<path d="M92 344C165 273 243 259 326 302C394 337 474 332 628 250V416H92V344Z" fill="#8AC926" />
+	<rect x="431" y="122" width="146" height="126" rx="18" fill="#fff" />
+	<path d="M455 172H553M455 198H526" stroke="#6A4C93" stroke-width="12" stroke-linecap="round" />
+	<text
+		x="360"
+		y="72"
+		text-anchor="middle"
+		fill="#6A4C93"
+		font-family="Arial, sans-serif"
+		font-size="24"
+		font-weight="700"
+	>
+		South Sudan story image placeholder
+	</text>
+</svg>

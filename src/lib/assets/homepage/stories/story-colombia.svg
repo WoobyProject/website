@@ -1,0 +1,20 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="720" height="460" rx="28" fill="#F2FBFF" />
+	<rect x="44" y="44" width="632" height="372" rx="24" fill="#C8F0ED" />
+	<circle cx="496" cy="176" r="78" fill="#00AAEE" opacity=".9" />
+	<circle cx="374" cy="204" r="58" fill="#FFCA3A" opacity=".92" />
+	<path d="M92 334C158 284 225 271 293 296C383 329 456 312 628 210V416H92V334Z" fill="#8AC926" />
+	<rect x="142" y="126" width="154" height="128" rx="18" fill="#fff" />
+	<path d="M170 176H264M170 202H238" stroke="#6A4C93" stroke-width="12" stroke-linecap="round" />
+	<text
+		x="360"
+		y="72"
+		text-anchor="middle"
+		fill="#6A4C93"
+		font-family="Arial, sans-serif"
+		font-size="24"
+		font-weight="700"
+	>
+		Colombia story image placeholder
+	</text>
+</svg>
